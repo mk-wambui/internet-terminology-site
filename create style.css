@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Brown & Beige Theme</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f0e6; /* beige */
+            color: #4b2e2a; /* dark brown text */
+        }
+
+        header {
+            background-color: #8b5e3c; /* brown */
+            color: #f5f0e6; /* beige text */
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #a47148; /* lighter brown */
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff8e7;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #4b2e2a;
+        }
+
+        .container {
+            padding: 30px;
+        }
+
+        .card {
+            background-color: #e8dcc7; /* soft beige */
+            padding: 20px;
+            margin: 15px 0;
+            border-left: 6px solid #8b5e3c;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #4b2e2a; /* dark brown */
+            color: #f5f0e6;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>My Brown & Beige Website</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Welcome</h2>
+        <p>This is a simple brown and beige themed website design.</p>
+    </div>
+
+    <div class="card">
+        <h2>About Section</h2>
+        <p>You can use this layout for your school project or portfolio.</p>
+    </div>
+
+</div>
+
+<footer>
+    &copy; 2026 Brown & Beige Theme
+</footer>
+
+</body>
+</html>
